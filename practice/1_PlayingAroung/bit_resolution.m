@@ -1,6 +1,6 @@
 pkg load image 
 clear all; close all
-x = imread('../../res/onion.jpg');
+x = imread('../../res/onion.png');
 imshow(x)
 [r,c,s] = size(x)
 b = [7 6 5];

@@ -1,5 +1,5 @@
 pkg load image
-D = imread('../../res/onion.jpg');
+D = imread('../../res/onion.png');
 Dgray = rgb2gray(D);
-subplot(2,1,1);imshow|(D);axis image;
-subplot(2,1,2);imshow|(Dgray)
+subplot(2,1,1);imshow(D); axis image;
+subplot(2,1,2);imshow(Dgray)
